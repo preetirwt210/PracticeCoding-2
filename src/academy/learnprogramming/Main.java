@@ -33,6 +33,18 @@ public class Main {
 		System.out.println("Minimum Long value is= " + minLongValue);
 		System.out.println("Maximum Long Value is= " + maxLongValue);
 
+		float minFloatValue=Float.MIN_VALUE;
+		float maxFloatValue=Float.MAX_VALUE;
+
+		System.out.println("Minimum floating value: " + minFloatValue);
+		System.out.println("Maximum floating value: " + maxFloatValue);
+
+		double minDoubleValue=Double.MIN_VALUE;
+		double maxDoubleValue=Double.MAX_VALUE;
+
+		System.out.println("Minimum Double Value: " + minDoubleValue);
+		System.out.println("Maximum Double Value: " + maxDoubleValue);
+
 		primitiveTypeChallenge prim=new primitiveTypeChallenge();
 		prim.challenge();
 
