@@ -48,5 +48,11 @@ public class Main {
 		primitiveTypeChallenge prim=new primitiveTypeChallenge();
 		prim.challenge();
 
+		challenge2 chal=new challenge2();
+		chal.getConvertItToKilograms();
+
+		Operators op=new Operators();
+		op.exampleOperator();
+
     }
 }
