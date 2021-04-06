@@ -14,7 +14,10 @@ public class Operators {
 
         boolean alien =false;
         if(alien==false){
-            System.out.println("You are a alien");
-        };
+            System.out.println("You are not  alien");
+        }
+        System.out.println("You are a alien.");
+
+
     }
 }
